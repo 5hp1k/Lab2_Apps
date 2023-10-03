@@ -74,14 +74,14 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>340</x>
       <y>20</y>
       <width>141</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Процент срабатывания</string>
+     <string>Порог срабатывания</string>
     </property>
    </widget>
   </widget>

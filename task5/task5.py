@@ -19,10 +19,10 @@ class MyWidget(QMainWindow):
 
         y = df.SequenceMatcher(None, str1.lower(), str2.lower()).ratio() * 100
         if float(self.doubleSpinBox.text()) >= round(y, 2):
-            self.statusBar.showMessage(f'Текст похож на {round(y, 2)}%')
+            self.statusBar.showMessage(f'Тексты совпадают на {round(y, 2)}%')
             self.statusBar.setStyleSheet('background-color: green')
         else:
-            self.statusBar.showMessage(f'Текст похож на {round(y, 2)}%')
+            self.statusBar.showMessage(f'Тексты совпадают на {round(y, 2)}%')
             self.statusBar.setStyleSheet('background-color: red')
 
 
